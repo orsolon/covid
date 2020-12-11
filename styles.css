@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-image:linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-size: auto 100vh; 
+    font-family: 'Source Code Pro', monospace;
+   
+    font-family: 'Roboto', sans-serif;
+  }
+
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 2.5em 0;
+} 
+  
+  .menu {
+    background-color: white;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .menu ul {
+    display: flex;
+    
+  }
+  
+  .menu li {
+   list-style: none; 
+   justify-content: flex-end;
+  }
+  
+  .menu a {
+    display: block;
+    padding: 10px 20px;
+    transition: background-color 1s, color 1s;
+  }
+  
+  
+  a {
+    color:hsl(156, 2%, 44%);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  h1 {
+    color: honeydew;
+    font-size: 3rem;
+    margin-top: 90px;
+    font-family: 'Noto Sans', sans-serif;
+  }
+
+  .text {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+  }
+
+
+  .container { 
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    cursor: pointer;
+    background: greenyellow;
+    border-radius: 8px;
+    position: relative;
+    
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.card:hover {
+    background:honeydew ;
+}
+
+
+.card a img {
+    width: 60%;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.card p {
+    color:hsl(273, 75%, 66%);
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+
+
+  
