@@ -21,7 +21,7 @@
 } 
   
   .menu {
-    background-color: white;
+    background-color: rgb(219, 251, 171);
     position: fixed;
     width: 100vw;
     top: 0;
@@ -46,7 +46,7 @@
   
   
   a {
-    color:hsl(156, 2%, 44%);
+    color:hsl(273, 75%, 66%);
     text-decoration: none;
     font-size: 1.1rem;
     font-weight: bold;
